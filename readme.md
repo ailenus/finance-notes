@@ -66,14 +66,14 @@ $$
 ### Modified Bond Duration
 
 $$
-  D^* = \frac{D}{1 + \frac{y}{m}}
+  D^&ast; = \frac{D}{1 + \frac{y}{m}}
 $$
 
 $$
-  \Delta B = - B D^* \Delta y
+  \Delta B = - B D^&ast; \Delta y
 $$
 
-- $D^*$ is the modified bond duration
+- $D^&ast;$ is the modified bond duration
 - $D$ is the bond duration
 - $y$ is the bond yield with compounding $m$ times per annum
 - $B$ is the bond price
@@ -114,10 +114,10 @@ $$
 ### Duration-Based Hedge Ratio
 
 $$
-  N^* = \frac{P D_P}{V_F D_F}
+  N^&ast; = \frac{P D_P}{V_F D_F}
 $$
 
-- $N^*$ is the duration-based hedge ratio
+- $N^&ast;$ is the duration-based hedge ratio
 - $P$ is the forward value of the portfolio being hedged at the maturity of the hedge
 - $D_P$ is the duration of the portfolio at the maturity of the hedge
 - $V_F$ is the contract price for one interest rate futures contract
@@ -134,8 +134,8 @@ $$
 - $\text{CVA}$ is the credit valuation adjustment, which is estimate of the present value of the expected cost of a
 counterparty default
 - $N$ is the number of intervals in the period of the longest outstanding derivatives transaction with the counterparty
-- $q_i$ is the probability of default by the counterparty during the $i$th interval
-- $v_i$ is the present value of the expected loss if there is a counterparty default at the midpoint of the $i$th
+- $q_i$ is the probability of default by the counterparty during the $`i`$-th interval
+- $v_i$ is the present value of the expected loss if there is a counterparty default at the midpoint of the $`i`$-th
 interval
 
 ### DVA
@@ -147,5 +147,6 @@ $$
 - $\text{DVA}$ is the debit valuation adjustment, which is the present value of the expected gain of the bank itself
 defaulting
 - $N$ is the number of intervals in the period of the longest outstanding derivatives transaction with the counterparty
-- $q^&ast;_i$ is the probability of default by the bank itself during the $i$th interval
-- $v^&ast;_i$ is the present value of the expected gain if there is a bank default at the midpoint of the $i$th interval
+- $q^&ast;_i$ is the probability of default by the bank itself during the $`i`$-th interval
+- $v^&ast;_i$ is the present value of the expected gain if there is a bank default at the midpoint of the $`i`$-th
+interval
