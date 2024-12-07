@@ -141,11 +141,11 @@ interval
 ### DVA
 
 $$
-  \text{DVA} = \sum_{i = 1}^N q^*_i v^*_i
+  \text{DVA} = \sum_{i = 1}^N q^&ast;_i v^&ast;_i
 $$
 
 - $\text{DVA}$ is the debit valuation adjustment, which is the present value of the expected gain of the bank itself
 defaulting
 - $N$ is the number of intervals in the period of the longest outstanding derivatives transaction with the counterparty
-- $q_i$ is the probability of default by the bank itself during the $i$th interval
-- $v_i$ is the present value of the expected gain if there is a bank default at the midpoint of the $i$th interval
+- $q^&ast;_i$ is the probability of default by the bank itself during the $i$th interval
+- $v^&ast;_i$ is the present value of the expected gain if there is a bank default at the midpoint of the $i$th interval
